@@ -5,121 +5,121 @@
 const destinations = [
     {
         id: 1,
-        name: 'Cerro de majuy',
-        location: 'cota, Cundinamarca',
-        description: 'Es uno de los principales atractivos naturales de Cota. Ofrece senderos, vegetación y miradores naturales desde donde se pueden apreciar paisajes de la Sabana.',
-        category: 'Historia & Naturaleza',
+        name: 'Parque Montaña del Oso',
+        location: 'Cota, Cundinamarca',
+        description: 'Espacio natural de Cota con senderos, vegetación y paisajes de montaña para disfrutar de una caminata tranquila cerca de la Sabana.',
+        category: 'Naturaleza',
         duration: '1 día',
-        imageId: 'photo-1761542547086-fbeb20f23e3a',
-        alt: 'Laguna de Guatavita envuelta en niebla andina',
+        image: 'img/Parque montaña del oso .JPG_',
+        alt: 'Paisaje del Parque Montaña del Oso en Cota',
         badge: '#0B5E20',
         emoji: '💧'
     },
     {
         id: 2,
-        name: 'Castillo marroquin',
-        location: 'chia, Cundinamarca',
-        description: 'Es una construcción de estilo medieval ubicada en Chía, reconocida por su arquitectura y su historia. Es uno de los lugares más representativos del municipio.',
-        category: 'Naturaleza',
+        name: 'Castillo Marroquín',
+        location: 'Chía, Cundinamarca',
+        description: 'Construcción de estilo medieval ubicada en Chía, reconocida por sus torres, jardines y valor histórico y arquitectónico.',
+        category: 'Historia & Arquitectura',
         duration: '½ día',
-        imageId: 'photo-1679534211899-3ebb5ab42a7f',
-        alt: 'Cascada del Salto del Tequendama en toda su majestuosidad',
+        image: 'img/Castillo-marroqui.jpeg',
+        alt: 'Castillo Marroquín en Chía',
         badge: '#0277BD',
         emoji: '🌊'
     },
     {
         id: 3,
-        name: 'Catedral de Sal de Zipaquirá',
+        name: 'Plaza de los Comuneros',
         location: 'Zipaquirá, Cundinamarca',
-        description: 'Una catedral gótica construida 200 m bajo la tierra en una mina de sal activa. Primera maravilla de Colombia, visitada por más de 500.000 personas al año. Una experiencia que desafía los sentidos.',
-        category: 'Cultura & Arte',
+        description: 'Plaza principal de Zipaquirá, rodeada de arquitectura colonial y espacios representativos de la vida cultural del municipio.',
+        category: 'Cultura & Historia',
         duration: '1 día',
-        imageId: 'photo-1542553824-260b5ac2427f',
-        alt: 'Minas de sal de Zipaquirá y paisaje de montañas',
+        image: 'img/Plaza de los comuneros zipa .JPG',
+        alt: 'Plaza de los Comuneros en Zipaquirá',
         badge: '#6A1B9A',
         emoji: '🏛️'
     },
     {
         id: 4,
-        name: 'Centro cultural y de Convenciones',
-        location: 'Cajica, Cundinamarca',
-        description: 'Es un espacio dedicado a actividades culturales, artísticas y eventos que permiten conocer parte de la identidad del municipio.',
-        category: 'Ecoturismo',
+        name: 'Centro Cultural y de Convenciones',
+        location: 'Cajicá, Cundinamarca',
+        description: 'Espacio de Cajicá destinado a actividades culturales, artísticas, académicas y eventos de encuentro para la comunidad.',
+        category: 'Cultura',
         duration: '1 día',
-        imageId: 'photo-1672851612770-f969b3efc02d',
-        alt: 'Bosque nublado exuberante del Parque Natural Chicaque',
+        image: 'img/Centro-convenciones-cajica.jpeg',
+        alt: 'Centro Cultural y de Convenciones de Cajicá',
         badge: '#1B5E20',
         emoji: '🌿'
     },
     {
         id: 5,
-        name: 'Termales de ',
-        location: 'tabio, Cundinamarca',
-        description: 'Zona montañosa cercana a Tabio y Tenjo, reconocida por sus paisajes y por las caminatas que se pueden realizar en sus alrededores.',
-        category: 'Aventura',
+        name: 'Termales de Tabio',
+        location: 'Tabio, Cundinamarca',
+        description: 'Destino de bienestar reconocido por sus aguas termales y por el entorno natural que rodea este municipio de la Sabana Centro.',
+        category: 'Bienestar',
         duration: '1–2 días',
-        imageId: 'assets/img/BioparqueCota.jpe',
-        alt: 'Escalador en las rocas de arenisca de Suesca',
+        image: 'img/Termales de tabio .JPG',
+        alt: 'Termales de Tabio',
         badge: '#E65100',
         emoji: '🧗'
     },
     {
         id: 6,
-        name: 'Aguas Termales de Choachí',
-        location: 'Choachí, Cundinamarca',
-        description: 'Aguas termales minerales que brotan naturalmente a 36°C entre palmas y helechos. Siete piscinas escalonadas perfectas para la recuperación muscular y la desconexión total en plena montaña.',
-        category: 'Bienestar',
+        name: 'Jardín Botánico de Tabio',
+        location: 'Tabio, Cundinamarca',
+        description: 'Espacio dedicado a la conservación y el reconocimiento de la flora local, ideal para caminar y conectar con la naturaleza de Tabio.',
+        category: 'Naturaleza',
         duration: '1 día',
-        imageId: 'photo-1718627830055-fea8ac2c443d',
-        alt: 'Piscinas termales naturales de Choachí rodeadas de selva',
+        image: 'img/Jardín botánico de tabio .JPG',
+        alt: 'Jardín Botánico de Tabio',
         badge: '#00695C',
         emoji: '♨️'
     },
     {
         id: 7,
-        name: 'Anapoima — El Paraíso Cálido',
-        location: 'Anapoima, Cundinamarca',
-        description: 'Con temperatura promedio de 28°C todo el año, Anapoima reúne fincas con piscinas naturales, gastronomía auténtica y el ritmo pausado del campo que revitaliza cuerpo y espíritu.',
-        category: 'Descanso',
-        duration: '2–3 días',
-        imageId: 'photo-1560280450-bad2250e0852',
-        alt: 'Piscina tropical en finca de Anapoima con ambiente paradisíaco',
-        badge: '#F57F17',
-        emoji: '☀️'
+        name: 'Peña de Juaica',
+        location: 'Tabio, Cundinamarca',
+        description: 'Montaña emblemática de Tabio, apreciada por sus paisajes, sus caminos de ascenso y las vistas panorámicas de la Sabana.',
+        category: 'Aventura & Naturaleza',
+        duration: '1 día',
+        image: 'img/Peña de juaica tabio .JPG',
+        alt: 'Peña de Juaica en Tabio',
+        badge: '#558B2F',
+        emoji: '⛰️'
     },
     {
         id: 8,
-        name: 'Tobia — Aventura Total',
-        location: 'Nimaima, Cundinamarca',
-        description: 'Rafting en aguas bravas del río Negro, rappel en cascadas de 40 m, torrentismo y caminatas por cañones tropicales. Tobia concentra en un solo lugar toda la adrenalina imaginable.',
-        category: 'Aventura',
-        duration: '1–2 días',
-        imageId: 'photo-1631134953337-b660eda6e87f',
-        alt: 'Cascadas y cañones tropicales de Tobia, Cundinamarca',
+        name: 'Alto de la Cruz',
+        location: 'Cota, Cundinamarca',
+        description: 'Mirador de Cota ubicado en la montaña, con una cruz blanca y vistas del paisaje natural que rodea el municipio.',
+        category: 'Naturaleza',
+        duration: '½ día',
+        image: 'img/Alto de la cruz cota.JPG',
+        alt: 'Alto de la Cruz en Cota',
         badge: '#01579B',
-        emoji: '🏄'
+        emoji: '✝️'
     },
     {
         id: 9,
-        name: 'Villeta — Capital Panelera',
-        location: 'Villeta, Cundinamarca',
-        description: 'Ciudad caliente de espíritu festivo y tradición panelera. Sus alrededores guardan cascadas escondidas entre cafetales, trapiches coloniales y la gastronomía más auténtica del centro de Cundinamarca.',
-        category: 'Cultura & Gastronomía',
-        duration: '1–2 días',
-        imageId: 'photo-1768407683153-214ba33ee9af',
-        alt: 'Palmas y colinas verdes en los alrededores de Villeta',
+        name: 'Estación del Tren',
+        location: 'Zipaquirá, Cundinamarca',
+        description: 'Antigua estación ferroviaria de Zipaquirá, donde se conserva una locomotora y parte de la memoria del transporte regional.',
+        category: 'Historia',
+        duration: '½ día',
+        image: 'img/Estación del tren zipa .JPG',
+        alt: 'Estación del tren de Zipaquirá',
         badge: '#558B2F',
-        emoji: '🎋'
+        emoji: '🚂'
     },
     {
         id: 10,
-        name: 'Laguna del Muña',
-        location: 'Sibaté, Cundinamarca',
-        description: 'Un lago artificial de 1.600 hectáreas enmarcado por montañas andinas. Punto de encuentro para deportes náuticos, avistamiento de aves migratorias y la contemplación del horizonte bogotano.',
-        category: 'Naturaleza',
+        name: 'Centro Histórico de Zipaquirá',
+        location: 'Zipaquirá, Cundinamarca',
+        description: 'Conjunto de calles, plazas y casas tradicionales que conserva la arquitectura y la memoria histórica de Zipaquirá.',
+        category: 'Cultura & Historia',
         duration: '½ día',
-        imageId: 'photo-1655918916311-fa460d14838b',
-        alt: 'Lago Muña rodeado de montañas y paisaje andino de Cundinamarca',
+        image: 'img/Centro histórico zipa.JPG',
+        alt: 'Centro histórico de Zipaquirá',
         badge: '#283593',
         emoji: '🦢'
     }
@@ -150,10 +150,6 @@ const whyData = [
 
 // ── HELPERS ──────────────────────────────────────────────────────────────────
 
-function unsplash(id, w = 800, h = 600) {
-    return `https://images.unsplash.com/${id}?w=${w}&h=${h}&fit=crop&auto=format`;
-}
-
 // ── RENDER FUNCTIONS ──────────────────────────────────────────────────────────
 
 function renderDestinations() {
@@ -164,7 +160,7 @@ function renderDestinations() {
         <div class="col-md-6 col-lg-4">
             <div class="dest-card">
                 <div class="card-img-wrapper">
-                    <img src="${unsplash(dest.imageId, 600, 440)}" alt="${dest.alt}" loading="lazy">
+                    <img src="${dest.image}" alt="${dest.alt}" loading="lazy">
                     <div class="card-img-overlay-gradient"></div>
                     <div class="card-badge">
                         <span style="background-color: ${dest.badge};">${dest.category}</span>
